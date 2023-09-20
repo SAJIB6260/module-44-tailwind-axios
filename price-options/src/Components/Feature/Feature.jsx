@@ -4,11 +4,15 @@ import { AiFillCheckCircle } from 'react-icons/ai';
 const Feature = ({feature}) => {
     return (
         <div>
-            <p className='flex'>
+            <p className='flex items-center align-middle'>
+                <div>
                 <AiFillCheckCircle className='text-green-400 text-lg mr-3'>
 
-                </AiFillCheckCircle>
+</AiFillCheckCircle>
+                </div>
+                <div>
                 {feature}
+                </div>
             </p>
         </div>
     );

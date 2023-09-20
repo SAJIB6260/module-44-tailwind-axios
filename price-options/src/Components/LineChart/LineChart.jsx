@@ -88,7 +88,7 @@ const LineChart = () => {
 
     return (
         <div>
-            <Lchart width={1000} height={500} data={studentMarksData}>
+            <Lchart width={400} height={400} data={studentMarksData}>
                 <XAxis></XAxis>
                 <YAxis></YAxis>
                 <CartesianGrid stroke="#f5f5f5" />
